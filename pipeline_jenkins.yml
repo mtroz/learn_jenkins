@@ -1,9 +1,0 @@
-stages:
-  - build
-
-build_job:
-  stage: build
-  script:
-    - javac Main.java
-  image: 
-    name: openjdk:7
